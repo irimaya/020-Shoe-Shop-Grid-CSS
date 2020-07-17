@@ -1,0 +1,75 @@
+/* Nav */
+#navbar .menu {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: block;
+  padding: 5px;
+}
+
+/* Body Grid */
+.wrapper {
+  grid-template-columns: 1fr;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  grid-gap: 0.2em;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6
+ {
+  grid-column: 1;
+ }
+
+.box1 {
+  grid-row: 1/2;
+}
+
+.box2 {
+  grid-row: 2/4;
+}
+
+.box3 {
+  grid-row: 4/6;
+}
+
+.box4 {
+  grid-row: 6/8;
+}
+
+.box5 {
+  grid-row: 8/10;
+}
+
+.box6 {
+  grid-row: 10/12;
+}
+
+/* Individual */
+.shoe-wrapper {
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+
+/* About */
+.about-wrapper {
+  grid-template-columns: 1fr;
+}
+
+.about-wrapper > div:nth-of-type(1) {
+  grid-column: 1;
+}
+
+.about-wrapper > div:nth-of-type(2) {
+  padding-left: 0px;
+}
+
+.about-wrapper > div:nth-of-type(3) {
+  padding-right: 0px;
+}
